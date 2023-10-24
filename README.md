@@ -6,3 +6,8 @@
     -   https://docs.ethers.io
 - dotenv libreria para proteger las claves privadas. 
 - agregar archivo .gitignore con .env y node_modules para que no lo muestre github.
+- para encriptar la private key en un archivo:
+    - crear encryptKey.js
+    - require ethers
+    - require dotenv
+    - utilizar comando  ethers.encrypt(private_key, password)
